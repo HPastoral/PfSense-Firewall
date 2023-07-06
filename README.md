@@ -12,37 +12,37 @@ pfSense is a powerful open-source firewall software that can be used to enhance 
 
 By integrating pfSense into your home network, you can establish a robust security perimeter and gain granular control over network traffic. It acts as a gateway between your modem and the devices connected to your network, providing essential firewall protection, traffic filtering, VPN capabilities, and more. With pfSense, you can monitor and manage network traffic, implement access control policies, and secure your network against external threats.
 
-Step-by-Step Installation on Mini PC Intel N5095:
+**Step-by-Step Installation on Mini PC Intel N5095:**
 
 Here's a step-by-step guide to installing pfSense on a Mini PC Intel N5095:
 
--  Prepare the Installation Media:
+-  **Prepare the Installation Media:**
     -  Download the latest stable version of pfSense from the official website.
     -  Create a bootable USB drive using software like Rufus or Etcher.
--  Connect the Hardware:
+-  **Connect the Hardware:**
     - Connect your Mini PC Intel N5095 to a monitor or TV using an HDMI cable.
     - Plug in a USB keyboard and a mouse.
     - Connect one of the LAN ports on the Mini PC to your modem using an Ethernet cable.
     - Boot from the Installation Media:
--  Insert the bootable USB drive into the Mini PC.
+-  **Insert the bootable USB drive into the Mini PC.**
     -  Power on the Mini PC and enter the BIOS/UEFI settings by pressing the appropriate key (usually displayed during startup).
     -  Configure the BIOS to boot from the USB drive.
--  Install pfSense:
+-  **Install pfSense:**
     -  The pfSense installation wizard will appear.
     -  Select the "Install" option to begin the installation process.
     -  Follow the on-screen prompts to choose the installation options, such as the installation destination and partitioning.
     -  Once the installation is complete, remove the USB drive and restart the Mini PC.
--  Initial Configuration:
+-  **Initial Configuration:**
     -  After rebooting, pfSense will load and present you with a series of configuration options.
     -  Configure the WAN interface by assigning it the appropriate IP address and gateway settings provided by your ISP.
     -  Set up the LAN interface by specifying the IP address range for your internal network (e.g., 192.168.1.0/24).
     -  Configure additional settings as required, such as DNS servers and time zone.
--  Access the pfSense Web Interface:
+-  **Access the pfSense Web Interface:**
     -  Open a web browser on a device connected to your network.
     -  Enter the LAN IP address of the pfSense firewall in the address bar (e.g., http://192.168.1.1).
     -  You will be prompted to set a new password for the admin account.
     -  After setting the password, you will gain access to the pfSense web interface.
--  Customize pfSense:
+-  **Customize pfSense:**
     -  Explore the various features and configurations available in the web interface.
     -  Configure firewall rules, set up port forwarding, enable VPN services, and customize security settings based on your requirements.
     -  Connect the Mini PC's second LAN port to your wireless router to extend your network's connectivity.
@@ -62,7 +62,7 @@ Here are some key aspects of the pfSense web interface:
 
 **Configuration:** The web interface provides a comprehensive set of configuration options to fine-tune your firewall settings. You can define network interfaces, set up firewall rules to control traffic flow, configure NAT (Network Address Translation) rules, manage DHCP services, set up DNS servers, and more. These settings enable you to tailor the firewall behavior to suit your network requirements and security policies.
 
-Monitoring and Logging: pfSense offers extensive monitoring and logging capabilities through its web interface. You can view real-time network traffic statistics, monitor bandwidth usage, track firewall events, and examine system logs for troubleshooting and security analysis. The interface provides visual graphs and tables to help you analyze network activity and identify any issues or anomalies.
+**Monitoring and Logging:** pfSense offers extensive monitoring and logging capabilities through its web interface. You can view real-time network traffic statistics, monitor bandwidth usage, track firewall events, and examine system logs for troubleshooting and security analysis. The interface provides visual graphs and tables to help you analyze network activity and identify any issues or anomalies.
 
 **Package Manager:** pfSense supports various optional packages that can be installed and managed through the web interface. These packages enhance the functionality of your firewall by adding features such as intrusion detection and prevention (IDS/IPS), proxy servers, DNS filtering, caching, and more. The Package Manager allows you to easily install, update, and configure these additional components.
 
