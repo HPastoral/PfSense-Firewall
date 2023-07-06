@@ -50,7 +50,7 @@ By following these steps, you can install and configure pfSense on your Mini PC 
 
 # PfSense Web interface
 
-![dash](https://github.com/HPastoral/PfSense-Firewall/assets/135756003/537f889c-7ea8-4d9c-ad42-2b2d8d559c43)
+![dash](https://github.com/HPastoral/PfSense-Firewall/assets/135756003/d9c88d96-464e-417a-a3e6-c1361a44fd26)
 
 pfSense has a user-friendly graphical interface that allows you to configure and manage your pfSense firewall system. It provides a centralized platform for accessing and controlling various features, settings, and services of the firewall.
 
