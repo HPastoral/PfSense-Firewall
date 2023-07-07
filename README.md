@@ -7,7 +7,7 @@ For this project I will use this mini computer to create a few open-sourced secu
 # Implementation:
 pfSense is a powerful open-source firewall software that can be used to enhance the security and control of your home network. It offers advanced features and functionalities typically found in commercial firewalls, making it a popular choice for both small-scale and enterprise-level deployments.
 
-![image](https://github.com/HPastoral/PfSense-Firewall/assets/135756003/bb47d70b-804a-4784-89fb-203b3c09ffc7)
+![image](https://github.com/HPastoral/PfSense-Firewall/assets/135756003/9a74c2ec-29c0-4b8f-a52d-ca9fc4bf25f4)
 
 # Application to a Home Network:
 
